@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(45deg, rgb(64, 209, 108), rgb(165, 80, 221));
+    color: azure;
+    font-family: lato;
+}
+
+
+.nav-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.in{
+  
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+    
+}
+.in:hover
+{
+  color: aqua;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 1.0s ease;
+
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(185, 238, 238);
+}
+.contact-1{
+    text-align: center;
+    padding: 1% 5%;
+    padding-left: 5%;
+    border: 1px solid #0dd9fd;
+    border-radius: 1px;
+    transition: all 1.0s ease;
+}
+.contact-2{
+    text-align: center;
+    padding: 1% 5%;
+    border: 1px solid #0dd9fd;
+    border-radius: 2px;
+    /* border-bottom: 5px; */
+    transition: all 1.0s ease;
+}

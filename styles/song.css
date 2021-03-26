@@ -1,0 +1,99 @@
+body{
+    background: linear-gradient(45deg, rgb(168, 111, 4), rgb(148, 148, 61));
+    color: azure;
+    font-family: lato;
+}
+
+
+.nav-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.in{
+  
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+    
+}
+.in:hover
+{
+  color: aqua;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 1.0s ease;
+
+}
+p{
+    font-size: x-large;
+    font-family: lato;
+    text-align: center;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+table {
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: center;
+}
+
+thead 
+	th {
+		background-color: rgb(108, 223, 223);
+	}
+
+
+
+	    tr:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+		td:hover {
+				left: 0;
+				right: 0;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+            .hindi{
+                text-align: center;
+                padding-bottom: 2%;
+            }
+            .kannada{
+                text-align: center;
+                padding-bottom: 2%;
+            }
+            .telugu{
+                text-align: center;
+                padding-bottom: 2%;
+            }
+            .tamil{
+                text-align: center;
+                padding-bottom: 5%;
+            }
+a {
+    text-decoration: none;
+    color: #be0000;
+}
