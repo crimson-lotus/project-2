@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    color: azure;
+    font-family:lato;
+}
+
+
+.nav-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.in{
+  
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s ease;
+    
+}
+.in:hover
+{
+  color: aqua;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: aqua;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 1.0s ease;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.imp{
+    padding: 5% 8%;
+    padding-bottom: 20%
+}
+.imp h3{
+    float: left;
+    padding: 1% 5%;
+    border-spacing: 5%;
+    border: 1px solid #0dd9fd;
+    border-radius: 1px;
+    transition: all 1.0s ease;
+}
+hr{
+    color: aqua;
+}
+    
+.imp h3:hover{
+    background-color: #0dd9fd;
+    color: #fff;
+
+}
+
+table {
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+
+thead 
+	th {
+		background-color: rgb(108, 223, 223);
+	}
+
+
+
+	    tr:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+		td:hover {
+				left: 0;
+				right: 0;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		.honours{
+            padding-top: 3%;
+            text-align: center;
+            padding-bottom: 2%;
+            
+        }
+        .national-film{
+            text-align: center;
+            padding-bottom: 2%;
+        }
+        .filmfare{
+            text-align: center;
+            padding-bottom: 2%;
+            
+        }
+        .filmfare-south{
+            text-align: center;
+            padding-bottom: 5%;
+        }
+
