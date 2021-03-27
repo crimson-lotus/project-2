@@ -57,17 +57,29 @@
             <img src="images/spb-img-1.jpeg" alt="Image Of SPB Singing">
         </div>-->
         <div class="form-con">
-        <div class="form">
+            <p id="btn"></p>
+        <div class="form" >
             <h2>Sign in</h2>
             <form action="">
                 <label for="email"></label>
                 <input type="text" id="email" name="email" placeholder="E-mail"><br><br>
                 <label for="pass"></label>
-                <input type="password" id="pass" name="pass" placeholder="Password"><br><br><br>
-                <button type="submit" class="btn">Login</button>
-            </form>
+                <input type="password" id="pass" name="pass" placeholder="Password" ><br><br><br>
+                <button class="btn" onclick="myFunction(); return false;">Login</button>
+                <script>
+                    function myFunction() {
+                        document.getElementById("btn").style.display='block';
+                        document.getElementById("btn").style.color='aqua';
+                        document.getElementById("btn").style.paddingRight="15%";
+                        document.getElementById("btn").style.fontFamily="lato";
+                        document.getElementById("btn").innerHTML="Thank you for Registering.<br><br> All the latest updates will be notified.";
+                    }
+            
+                    </script>     
+                   </form>
         </div>
         </div>
+        
     </section>
     </div>
     <section class="bottom-section">
